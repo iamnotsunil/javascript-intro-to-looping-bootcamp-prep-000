@@ -10,9 +10,9 @@ for (let i=0; i < 25; i++)  {
 return array;
 }
 
-function whileLoop(countdown){
-  while (countdown > 0) {
-    console.log(--countdown)
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(--n)
   }
   console.log("done")
 }
